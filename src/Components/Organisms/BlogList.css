@@ -1,0 +1,47 @@
+/* src/components/organisms/BlogList.css */
+.blog-list-container {
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .blog-list-item {
+    text-align: justify;
+    padding: 2%;
+    width: 300px;
+    margin: 2%;
+    border: solid 2px #e74c3c;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #ecf0f1;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .blog-list-item:hover {
+    transform: scale(1.05);
+  }
+  
+  .blog-list-item h2 {
+    color: #e74c3c;
+    margin-bottom: 8px;
+  }
+  
+  .blog-list-item p {
+    color: #555;
+  }
+  
+  .blog-list-item button {
+    background-color: #e74c3c;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .blog-list-item button:hover {
+    background-color: #c0392b;
+  }
+  
